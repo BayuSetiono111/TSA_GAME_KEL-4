@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58431da15083c104dbe4e70bd5223ece, type: 3}
+  m_Name: TestMon
+  m_EditorClassIdentifier: 
+  monName: Floppa
+  description: test
+  frontSprite: {fileID: 21300000, guid: 8b15035ad795cc14dbfb05bb5ee0d17f, type: 3}
+  backSprite: {fileID: 21300000, guid: 4f892e64835918d4c9ac44d3e435b2de, type: 3}
+  type1: 2
+  type2: 0
+  maxHP: 50
+  attack: 69
+  defense: 69
+  sAttack: 69
+  sDefense: 10
+  speed: 69
+  learableMoves:
+  - moveBase: {fileID: 11400000, guid: 0903aa0efbd369e4b982d3f3e3fbbc82, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 37af3ee0106c2874c8be27f4d3b923bd, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: c07b63eaac5b8a049a40bde6739b5be2, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 7ed62eb847a190546807b20cfa05ac43, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 07fa867182659ab4ba5fda877e2326f6, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: d2449e05fb7854a43b7f0c6ea8f1fb3e, type: 2}
+    level: 6

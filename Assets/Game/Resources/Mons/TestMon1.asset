@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58431da15083c104dbe4e70bd5223ece, type: 3}
+  m_Name: TestMon1
+  m_EditorClassIdentifier: 
+  monName: Bingus
+  description: test
+  frontSprite: {fileID: 21300000, guid: 39ff12314ec613d4a9bc9c6ed9037a6a, type: 3}
+  backSprite: {fileID: 21300000, guid: 3436de4464ce52a459c235b0104f443c, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 50
+  attack: 69
+  defense: 69
+  sAttack: 600
+  sDefense: 69
+  speed: 10
+  learableMoves:
+  - moveBase: {fileID: 11400000, guid: 0903aa0efbd369e4b982d3f3e3fbbc82, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cdf1a19a1a028e24aafe219ee09c16ca, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: 37af3ee0106c2874c8be27f4d3b923bd, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 7ed62eb847a190546807b20cfa05ac43, type: 2}
+    level: 4
